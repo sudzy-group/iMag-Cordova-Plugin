@@ -3,8 +3,6 @@
 
 @implementation iMagPlugin
 
-int opendev=0;
-
 - (void)pluginInitialize;
 {
     NSLog(@"In iMagPlugin Init");
@@ -21,7 +19,6 @@ int opendev=0;
 //selectors
 - (void)uniAccessoryConnected:(NSNotification *)notification
 {
-    opendev=1;
     NSLog(@"iMag Connected");
     if(listenerCommand){
         CDVPluginResult* pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:@"Connected"];
@@ -32,7 +29,6 @@ int opendev=0;
 
 - (void)uniAccessoryDisconnected:(NSNotification *)notification
 {
-    opendev=0;
     NSLog(@"Accessory Disconnected");
     if(listenerCommand){
         CDVPluginResult* pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:@"Disconnected"];
