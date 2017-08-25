@@ -1,0 +1,19 @@
+{
+  "name": "imag-cordova-plugin",
+  "version": "1.0.0",
+  "description": "iMag Pro Cordova Plugin for use with iMag Pro Mobile MagStripe Reader for iOS. <b>In order to publish any application using the iMag Pro you must purchase a development kit from ID Tech directly. You must contact ID Tech to purchase a development kit prior to using this plugin. This plugin is to serve as an 3rd party addition to the paid iMag Pro SDK provided with the purchase of ID Tech's iMag dev kit. See iMag FAQ on ID Tech website for more information.</b> It's recommended that you 1st test your device using the iMag demo in the iTunes market prior to development.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudzy-group/iMag-Cordova-Plugin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sudzy-group/iMag-Cordova-Plugin/issues"
+  },
+  "homepage": "https://github.com/sudzy-group/iMag-Cordova-Plugin#readme"
+}
