@@ -1,10 +1,9 @@
 //
 //  iMag.h
 //
-//  iMag SDK 2.8
-//  base on v2.7
-//  Modified by XinHu Li on 27/08/14
-//  Copyright 2014 ID TECH. All rights reserved.
+//  iMag SDK 2.9
+//  Modified by XinHu Li on 3/09/16
+//  Copyright 2016 ID TECH. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
