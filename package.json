@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/sudzy-group/iMag-Cordova-Plugin/issues"
   },
+  "engines": {
+    "cordovaDependencies": {
+      "2.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
   "homepage": "https://github.com/sudzy-group/iMag-Cordova-Plugin#readme"
 }
