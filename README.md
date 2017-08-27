@@ -17,16 +17,10 @@ Core iMag iOS SDK files are Copyright of their Respective Owners.
 
 Installation Step 1: Add Plugin to App Project
 ```
-$ cordova plugin add https://github.com/deboorn/iMag-Cordova-Plugin
+$ cordova plugin add https://github.com/sudzy-group/iMag-Cordova-Plugin
+$ ionic cordova plugin add https://github.com/sudzy-group/iMag-Cordova-Plugin
 ```
-Step 2: Add a plugin definition to the `config.xml`
-```
-<feature name="iMagPlugin">
-    <param name="ios-plugin" value="iMagPlugin" />
-</feature>
-```
-
-Step 3: Invoke plugin from HTML
+Step 2: Invoke plugin from HTML
 ```
 //place in your application js, document must be loaded prior to invoking
   imag.start(function(result){
@@ -42,15 +36,15 @@ Events include:
 - "Disconnected" - For notification of iMag disconnection.
 - OR, card data, where card data is from a swipe
 
-Step4: Add iOS Platform & Build
+Step3: Add iOS Platform & Build
 ```
-$ cordova platform add ios
-$ cordova build ios
+$ (ionic) cordova platform add ios
+$ (ionic) cordova build ios
 ```
 
 What's Next?<br>
 - Open the project in XCode and run on device.
-- Refactor the resultHander and errorHander in Step 3.
+- Refactor the resultHander and errorHander in Step 2.
 
 iMagPlugin Methods:
 - `imag.start(resultHandler, errorHandler)` - Get disconnect, connect and swipe events.
